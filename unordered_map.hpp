@@ -28,7 +28,7 @@
 #include <tr1/unordered_map>
 #elif defined(__GNUC__) && __GNUC__ >= 3
 #include <ext/hash_map>
-#elif defined(_MSC_VER) && _MSC_VER >= 1500 && _HAS_TR1
+#elif defined(_MSC_VER) && ( ( _MSC_VER >= 1500 && _HAS_TR1 ) || ( _MSC_VER >= 1600 ) )
 #include <unordered_map>
 #else
 #include <hash_map>
