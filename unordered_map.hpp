@@ -1,5 +1,5 @@
 // Portable header for std::unordered_map<K,V> template. Welcome to C++. Enjoy!
-// - rlyeh / MIT licensed
+// - rlyeh / BOOST licensed
 
 #pragma once
 
